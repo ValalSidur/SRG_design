@@ -1,0 +1,19 @@
+{
+  "name": "srg_design",
+  "version": "1.0.0",
+  "description": "Página web de la empresa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValalSidur/SRG_design.git"
+  },
+  "author": "Alejandro Valenzuela Silerio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValalSidur/SRG_design/issues"
+  },
+  "homepage": "https://github.com/ValalSidur/SRG_design#readme"
+}
