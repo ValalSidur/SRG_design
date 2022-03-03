@@ -1,7 +1,22 @@
 .footer{
-
+	padding: 10px 10px 0 10px;
+	background-color: lightblue;
+	margin-bottom: 0px;  
 }
 
 .jumbotron{
-	background-color: yellow;
+	background-color: darkblue;
+	color: white;
+}
+
+.card{
+	flex: 1 150px;
+	padding: 2px 2px 2px 2px;
+}
+
+.btn{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
