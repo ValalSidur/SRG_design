@@ -6,8 +6,8 @@ footer{
 	width: 100%
 }
 
-img{
-	width: 20%;
+.card-img-top{
+	width: 50%;
 }
 
 .bg-info{
