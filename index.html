@@ -9,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+
+	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->	
 </head>
 <body>	
 	<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
@@ -37,6 +40,38 @@
 		</nav>
 		<hr>
 		<img src="./IMG/banner.jpg" class="img-fluid" style="width: 100%; height: 300px;" alt="responsive image">
+		<div class="row">
+			<div class="col-sm-4">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="muticollapse1">¿Como funciona?</button>
+			</div>
+			<div class="col-sm-4">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#esperar" aria-expanded="false" aria-controls="muticollapse2">¿Que puedo esperar del servicio?</button>
+			</div>
+			<div class="col-sm-4">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="muticollapse3">¿Como pago?</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 collapse multi-collapse" id="funciona">
+				<p>
+					<h3>¿Como funciona?</h3>
+					<p>Seleccione cualquiera de los servicios para obtener mas información</p>
+				</p>
+			</div>
+			<div class="col-sm-4 collapse multi-collapse" id="esperar">
+				<p>
+					<h3>¿Que puedo esperar del servicio?</h3>
+					<p>Se realizá un analisis y maquetado sin costo para garantizar lo esperado por el cliente</p>
+				</p>
+			</div>
+			<div class="col-sm-4 collapse multi-collapse" id="pago">
+				<p>
+					<h3>¿Como pago?</h3>
+					<p>Puede realizar pagos vía paypal, oxxo, transferencia o en efectivo.</p>
+				</p>
+			</div>
+		</div>
+		<hr>
 		<div class="d-flex flex-wrap flex-row-reverse" align="center">
 			<div class="card col card_services d-flex flex-column justify-content-between ml-2">
 				<div class="card-header">
