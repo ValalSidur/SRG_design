@@ -2,44 +2,25 @@
 <html>
 <head>
 	<title>SRG Design</title>
+
+<!--build:js dist/index.js-->
 	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="node_modules/popper.js/dist/popper.js"></script>
+		<script type="text/javascript" src="JS/index.js"></script>
+<!--endbuild-->
 
+<!--build:css dist/index.css-->
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
+<!-- endbuild -->
 
 	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">	-->
 
   	<!--Por default los tooltips no se activan ocupas script requere POPOVER la versión mas reciente-->
-  	<script>
-  		$(function(){
-  			$("[data-toggle='tooltip']").tooltip(); //para tooltips
-  			$("[data-toggle='popover']").popover(); //para popover
-  			$('.carousel').carousel({
-  				interval: 2000
-  			});
-  			$('#contacto').on('show.bs.modal', function(e){
-  				console.log("El modal contacto se esta mostrando.");
-  				$('#btncontacto').removeClass('btn-outline-success');
-  				$('#btncontacto').addClass('btn-danger');
-  				$('#btncontacto').prop('disabled', true); //Acceder a las propiedades
-  			});
-  			$('#contacto').on('shown.bs.modal', function(e){
-  				console.log("El modal contacto se mostro.");
-  			});
-  			$('#contacto').on('hide.bs.modal', function(e){
-  				console.log("El modal contacto se oculta.");
-  				$('#btncontacto').removeClass();
-  			});
-			$('#contacto').on('hidden.bs.modal', function(e){
-  				console.log("El modal contacto se oculto.");
-  				$('#btncontacto').removeClass();
-  			});
-  		});
-  	</script>
+  
 </head>
 <body>	
 	<nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
